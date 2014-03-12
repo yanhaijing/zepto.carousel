@@ -1,0 +1,4 @@
+.js-carousel{position:relative;margin:auto;width:65%;-webkit-transform-style:preserve-3d;-webkit-perspective:1000px;}
+    .js-carousel-li{display:none;position:absolute;top:0;left:0;width:100%;-webkit-transition:500ms linear;opacity:0;}
+    .js-carousel-li-visible{display:block;opacity:1;}
+        .js-carousel-li img{width:100%;height:auto;}
