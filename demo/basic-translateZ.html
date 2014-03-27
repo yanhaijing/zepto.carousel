@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>testCarousel</title>
+		<meta name="description" content="">
+		<meta name="author" content="YANXUEFENG">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link media="print screen" rel="stylesheet" href="" />
+		<link rel="stylesheet" href="../build/zepto.carousel-min.css" />
+		<style>
+			html,body{overflow:hidden;height:90%;}
+			ul{list-style:none;padding:0;margin:0;}
+			img{width:100%;-webkit-box-reflect: below 0px -webkit-linear-gradient(transparent,transparent 60%,rgba(0,0,0,.2));}	
+			.js-carousel{width:60%;}	
+		</style>		
+	</head>
+
+	<body>
+		<ul class="js-carousel">
+			<li>
+				<img src="img/1.jpg">
+			</li>
+			<li>
+				<img src="img/2.jpg">
+			</li>
+			<li>
+				<img src="img/3.jpg">
+			</li>
+			<li>
+				<img src="img/4.jpg">
+			</li>
+			<li>
+				<img src="img/5.jpg">
+			</li>
+			<li>
+				<img src="img/6.jpg">
+			</li>
+		</ul>		
+		<script src="js/zepto.js"></script>
+		<script src="../build/zepto.carousel-min.js"></script>
+		<script>
+			$(function () {
+				$(".js-carousel").carousel({translateZ: 400});
+			});
+		</script>
+	</body>
+</html>
