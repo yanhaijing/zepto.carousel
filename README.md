@@ -1,4 +1,4 @@
-#zepto.carousel
+#zepto.carousel [![license](http://img.shields.io/npm/l/express.svg)](https://github.com/yanhaijing/zepto.carousel/blob/master/LICENSE)
 zepto.carousel 基于Zepto的移动旋转木马插件，依赖zepto.js
 
 ##Platform
